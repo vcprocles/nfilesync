@@ -3,13 +3,12 @@ name = "nfilesync"
 version = "0.0.1"
 edition = "2021"
 license = "BSD-3-Clause"
-license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 log = "0.4"
-md5 = "0.7.0"
+simd-adler32 = "0.3.4"
 vsdbsled = "0.34.7-p1"
 
 [dependencies.uuid]
